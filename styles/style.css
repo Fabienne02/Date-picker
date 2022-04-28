@@ -7,14 +7,16 @@ body {
   background-color: #efecf6;
   height: 100vh;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: flex-start;
+  /* align-items: center; */
 }
 
 h1 {
     font-size: 30px;
     font-weight: bold;
     color:#8157f4;
+    display: flex;
+    justify-content: center;
 }
 
 ::selection {
@@ -22,7 +24,7 @@ h1 {
   background: #d2d0d9;
 }
 
-.content {
+.day {
   display: inherit;
 }
 
@@ -30,22 +32,36 @@ div {
     display: inline-block;
 }
 
+section {
+  display: inline-block;
+}
+
+section:nth-of-type(1) {
+  margin-right: 5em;
+}
+
+
 button {
-    border: none;
+    border: none; 
     background-color: transparent;
+    padding: 1.5em;
 }
 
 .arrow {
   align-self: center;
   margin: 0 1em 0 1em;
-  color: #d8cdf6;
+  color:#8157f4;
   font-size: 35px;
   cursor: pointer;
   transition: color .25s linear;
+  background-color: #8157f40a;
+  border-radius: 1.6rem;
 }
 
 .arrow:hover {
   color: #7a6ba3;
+  /* border: solid 1.6px #8157f4;
+  border-radius: 1.6rem; */
 }
 
 .box {

@@ -21,12 +21,26 @@
   </head>
   <body>
     <main>
-      <h1>Day</h1>
-      <div class="content">
-        <button class="arrow left-arrow"><</button>
-        <div class="box"></div>
-        <button class="arrow right-arrow">></button>
-      </div>
+      <section>
+        <h1 id="month">Day</h1>
+        <div class="day">
+          <button class="arrow left-arrow"><</button>
+          <div class="box"></div>
+          <button class="arrow right-arrow">></button>
+        </div>
+      </section>
+      <section>
+        <h1 id="month">Time</h1>
+        <div class="time">
+          <button class="arrow left-arrow" id="arrow-time-left"><</button>
+          <div class="box">
+            <div id="digital-clock"></div>
+          </div>
+          <button class="arrow right-arrow time" id="arrow-time-right">
+            >
+          </button>
+        </div>
+      </section>
       <script src="script/script.js"></script>
     </main>
   </body>
