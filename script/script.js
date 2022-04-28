@@ -77,41 +77,88 @@ setInterval(function(){
 
 // TIME PICKER
 const addArrow = document.getElementById("arrow-time-right")
-var futureDate = new Date(now.getTime() + 30*60000);
-var futureHour    = futureDate.getHours();
-var futureMinute  = futureDate.getMinutes();
-console.log(futureMinute)
+const removeArrow = document.getElementById("arrow-time-left")
+const fastAddArrow = document.getElementById("arrow-time-right-fast")
+const fastRemoveArrow = document.getElementById("arrow-time-left-fast")
+var futureDate = new Date(now.getTime());
 
 function getFutureDateTime() { 
+  var futureHour    = futureDate.getHours();
+  var futureMinute  = futureDate.getMinutes();
+
   if(futureHour.toString().length == 1) {
-    console.log("hi")
        futureHour = '0'+futureHour;
   }
   if(futureMinute.toString().length == 1) {
        futureMinute = '0'+futureMinute;
   
   }    
+  var futureDateTime = futureHour+':'+futureMinute;
    return futureDateTime;
 }
 
 getFutureDateTime()
 
-var futureDateTime = futureHour+':'+futureMinute;
+newTime =  getFutureDateTime();
+document.getElementById("digital-clock").innerHTML = newTime;
 
 setInterval(function(){
   newTime =  getFutureDateTime();
   document.getElementById("digital-clock").innerHTML = newTime;
-  console.log(newTime)
 });
 
-// addArrow.onclick = function AddTime () {
-//   console.log("hi")
-//   futureDate = new Date(now.getTime() + 30*60000);
-//   console.log(futureDate)
+addArrow.onclick = function () {
+if ( newTime < 23+':'+30) {
+  futureDate = new Date(futureDate.getTime() + 30*60000);
+ } else  {
+    limitAnimT();
+  }
+}
 
-//   return futureDate;
-  
-// }
+
+fastAddArrow.onclick = function () {
+  if ( newTime < 23+':'+30) {
+    futureDate = new Date(futureDate.getTime() + 60*60000);
+   } else  {
+      limitAnimT();
+    }
+  }
+
+removeArrow.onclick = function () {
+  if ( newTime > dateTime) {
+  futureDate = new Date(futureDate.getTime() - 30*60000);
+  } else {
+    limitAnimT();
+  }
+}
+
+fastRemoveArrow.onclick = function () {
+  if ( newTime > dateTime) {
+  futureDate = new Date(futureDate.getTime() - 60*60000);
+  } else {
+    limitAnimT();
+  }
+}
+
+const boxT = document.querySelector(".boxT")
+
+function limitAnimT() {
+  if (boxT.classList.contains('shake-horizontal')) {
+      return
+   } 
+   else {
+    boxT.classList.add("shake-horizontal");
+    boxT.addEventListener('animationend', e => {
+      e.target.classList.remove('shake-horizontal');
+    });
+  }
+}
+
+
+
+
+
+
 
 
 

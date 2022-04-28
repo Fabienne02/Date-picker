@@ -32,13 +32,57 @@
       <section>
         <h1 id="month">Time</h1>
         <div class="time">
-          <button class="arrow left-arrow" id="arrow-time-left"><</button>
-          <div class="box">
+          <button class="arrow left-arrow time fast" id="arrow-time-left-fast">
+            <<
+          </button>
+          <button class="arrow left-arrow time" id="arrow-time-left"><</button>
+          <div class="boxT">
             <div id="digital-clock"></div>
           </div>
           <button class="arrow right-arrow time" id="arrow-time-right">
             >
           </button>
+          <button
+            class="arrow right-arrow time fast"
+            id="arrow-time-right-fast"
+          >
+            >>
+          </button>
+        </div>
+      </section>
+      <section id="route">
+        <div>
+          <a
+            href="https://www.ns.nl/reisplanner/#/?vertrek=Amsterdam%20Centraal&vertrektype=treinstation&aankomst=Eindhoven%20Centraal&aankomsttype=treinstation&type=vertrek&tijd=2022-04-28T17:02"
+            >Naar huis</a
+          >
+        </div>
+        <div>
+          <a
+            href="https://www.ns.nl/reisplanner/#/?vertrek=Eindhoven%20Centraal&vertrektype=treinstation&aankomst=Amsterdam%20Centraal&aankomsttype=treinstation&type=vertrek&tijd=2022-04-28T07:00"
+            >Naar werk</a
+          >
+        </div>
+        <div>
+          <div class="bestemming">
+            <label for="van">
+              <h1>Van</h1>
+              <input
+                type="text"
+                name="van"
+                placeholder="Van: Station, adres, plaats etc."
+              />
+            </label>
+            <label for="naar">
+              <h1>Naar</h1>
+              <input
+                type="text"
+                name="naar"
+                placeholder="Naar: Station, adres, plaats etc."
+              />
+            </label>
+            <a href="https://www.ns.nl/reisplanner/#/" id="vroom"> Vroom </a>
+          </div>
         </div>
       </section>
       <script src="script/script.js"></script>

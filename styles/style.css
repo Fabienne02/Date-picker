@@ -37,9 +37,9 @@ section {
 }
 
 section:nth-of-type(1) {
-  margin-right: 5em;
+  margin-right: 3em;
+  margin-left: 1em;
 }
-
 
 button {
     border: none; 
@@ -47,9 +47,27 @@ button {
     padding: 1.5em;
 }
 
+#arrow-time-left::after, 
+#arrow-time-right::after {
+  content: "30min";
+  display: block;
+  font-size: 0.8rem;
+}
+
+#arrow-time-left-fast::after, 
+#arrow-time-right-fast::after {
+  content: "1uur";
+  display: block;
+  font-size: 0.8rem;
+}
+
+#arrow-time-left-fast, #arrow-time-right-fast {
+  margin-left: 0;
+}
+
 .arrow {
   align-self: center;
-  margin: 0 1em 0 1em;
+  /* margin: 0 1em 0 1em; */
   color:#8157f4;
   font-size: 35px;
   cursor: pointer;
@@ -64,7 +82,7 @@ button {
   border-radius: 1.6rem; */
 }
 
-.box {
+.box, .boxT {
   width: 100px;
   height: 100px;
   background-color: #8157f4;
@@ -76,6 +94,7 @@ button {
   -moz-box-shadow: 0px 13px 74px -15px rgba(129,87,244,1);
   box-shadow: 0px 13px 74px -15px rgba(129,87,244,1);
 }
+
 
 .shake-horizontal {
 	-webkit-animation: shake-horizontal 0.8s cubic-bezier(0.455, 0.030, 0.515, 0.955) both;
@@ -138,3 +157,64 @@ button {
             transform: translateX(-8px);
   }
 }
+
+#route {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#route div {
+  padding: 2em;
+}
+
+#route div button {
+  width: 200px;
+  height: 100px;
+  background-color: #8157f4;
+  border-radius: 1.6rem;
+  text-align: center;
+  color: #fff;
+  -webkit-box-shadow: 0px 13px 74px -15px rgba(129,87,244,1);
+  -moz-box-shadow: 0px 13px 74px -15px rgba(129,87,244,1);
+  box-shadow: 0px 13px 74px -15px rgba(129,87,244,1);
+}
+
+label {
+  display: inline-block;
+}
+
+label:nth-of-type(2){
+  margin-left: 2em;
+}
+
+input {
+  background-color: #8157f40a;
+  border: none;
+  padding:1.6em;
+  border-radius: 1em;
+  -webkit-box-shadow: 0px 13px 74px -15px rgba(129,87,244,1);
+  -moz-box-shadow: 0px 13px 74px -15px rgba(129,87,244,1);
+  box-shadow: 0px 13px 74px -15px rgba(129,87,244,1);
+}
+
+a {
+  padding: 2.5em;
+  background-color: #8157f4;
+  border-radius: 1rem;
+  text-align: center;
+  color: #fff;
+  -webkit-box-shadow: 0px 13px 74px -15px rgba(129,87,244,1);
+  -moz-box-shadow: 0px 13px 74px -15px rgba(129,87,244,1);
+  box-shadow: 0px 13px 74px -15px rgba(129,87,244,1);
+  text-decoration: none;
+  font-size: 0.7rem;
+}
+
+a:nth-of-type(1), a:nth-of-type(2) {
+  padding: 2em;
+  font-size: 1rem;
+}
+
+
+
