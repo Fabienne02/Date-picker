@@ -23,6 +23,7 @@
     <main>
       <section>
         <h1 id="month">Day</h1>
+        <h2 id="monthName">dayname</h2>
         <div class="day">
           <button class="arrow left-arrow"><</button>
           <div class="box"></div>
@@ -67,25 +68,35 @@
           <div class="bestemming">
             <label for="van">
               <h1>Van</h1>
-              <input
-                type="text"
-                name="van"
-                placeholder="Van: Station, adres, plaats etc."
-              />
+              <span class="autocomplete">
+                <input
+                  id="van"
+                  type="text"
+                  name="van"
+                  placeholder="Van: Station, adres, plaats etc."
+                />
+              </span>
             </label>
             <label for="naar">
               <h1>Naar</h1>
-              <input
-                type="text"
-                name="naar"
-                placeholder="Naar: Station, adres, plaats etc."
-              />
+              <span class="autocomplete">
+                <input
+                  id="naar"
+                  type="text"
+                  name="naar"
+                  placeholder="Naar: Station, adres, plaats etc."
+                />
+              </span>
             </label>
             <a href="https://www.ns.nl/reisplanner/#/" id="vroom"> Vroom </a>
           </div>
         </div>
       </section>
       <script src="script/script.js"></script>
+      <script>
+        autocomplete(document.getElementById("van"), stationen);
+        autocomplete(document.getElementById("naar"), stationen);
+      </script>
     </main>
   </body>
 </html>
