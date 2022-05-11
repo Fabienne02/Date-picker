@@ -22,11 +22,11 @@ Hiervoor heb ik samen met Marijn 3 keer mijn website getest om erachter te komen
     + [Plannen](#plannen)
     + [Ontwerp test 1](#ontwerp-test-1)
   * [Second test](#second-test-with-eric)
-    + [Preparations](#preparations-1)
-    + [Testing](#testing-1)
-    + [Insights](#insights-1)
-    + [Iterations](#iterations-1)
-  * [Third test with Eric](#third-test-with-eric)
+    + [Bevindingen](#bevindingen-1)
+    + [Reflectie](#reflectie-1)
+    + [Plannen](#plannen-1)
+    + [Ontwerp test 2](#ontwerp-test-2)
+  * [Third test](#third-test)
     + [Preparations](#preparations-2)
     + [The flow of all commands:](#the-flow-of-all-commands)
     + [The select command:](#the-select-command)
@@ -152,6 +152,45 @@ Verder werken de pijlen heel goed en ben ik blij mee, hij gaf wat kleine tips du
 * Add nonsence
 
 ### Ontwerp 2
-
 ![](https://github.com/Fabienne02/Date-picker/blob/main/assets/week2.jpg)
 
+## Third test
+
+## Exclusive design principles
+### Study situation
+Omdat Marijn slecht is met fijne moteriek was het erg interessant te observeren hoe hij zijn laptop/ toetsenbord gebruikt vergeleken wij. Eerste ging ik er altijd vanuit dat tab vaak gebruik werd maar na Marijn te onderzoeken heb ik veel belangrijke bevinden opgedaan zoals dat mensen met een beperking HJKL gebruiken ipv de pijltje of dus Tab. Marijn is ook verassend goed met zijn mousepad en het viel mij op hoewel hij grote knoppen fijner vind nog best precies is in waar hij klikt. Doordat zijn gebruik afwijkt van andere hebben we vooral veel vragen gesteld en getest op betrekking van zijn toetsenbord gebruik. 
+
+### Prioritise identity
+Het eerste wat ik aan Marijn opmerkte is dat als er een bug zit in je website vind hij hem wel. Ook houd Marijn ervan zo gemakkelijk en snel mogelijk te werken. 
+Met deze twee dingen in gedachten heb ik mijn web applicaite zo bug vrij mogelijk gemaakt met zelf een feedback wanneer en een bug kan voorkomen. Ook heb ik zoveel mogelijk van zijn data al voor hem klaar staan/ ingevuld. 
+
+### Ignore conventions
+Waarom button klein en subtiel maken als ze schreeuwen om gebruikt te worden? In mijn web applicatie zijn de button +size. Er valt niet meer mis te klikken en zo voorkom ik irritaties tijdens het gebruik.
+
+### Add Nonsence
+
+## Final Product
+
+## Conclusion
+
+## Live version
+[Live demo](https://fabienne02.github.io/Date-picker/) 🔮
+
+## Install
+1. Clone deze repository naar jouw lokale folder
+```
+git clone https://github.com/Fabienne02/Date-picker.git
+```
+2. Open de folder in jouw code applicatie [Zoals VSCODE](https://code.visualstudio.com/Download)
+3. Start en local live host
+4. Open de de localhost in je browser
+
+## Author
+De maker van deze Web Applicatie is: [*Fabienne van den Steen*](https://github.com/Fabienne02)
+
+## Bronnen
+- [Code hulp bron](https://developer.mozilla.org/en-US/)
+- [Stackoverflow](https://stackoverflow.com/)
+
+## Lisence
+[![license](https://img.shields.io/github/license/DAVFoundation/captain-n3m0.svg?style=flat-square)]()
