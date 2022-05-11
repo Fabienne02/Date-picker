@@ -41,12 +41,12 @@ Hiervoor heb ik samen met Marijn 3 keer mijn website getest om erachter te komen
     + [Add nonsense](#add-nonsense)
   * [Final product](#final-product)
   * [Conclusion](#conclusion)
-    + [Do's](#dos)
-    + [Dont's](#donts)
-  * [Tech stack](#tech-stack)
   * [Live version](#live-version)
+  * [Install](#install)
+  * [Author](#author)
+  * [Bronnen](#bronnen)
   * [License](#license)
-  * [Install](#install)  
+  
 
 ## Aannames 
 Voordat ik Marijn had ontmoet heb ik eerst wat aannames gedaan en aan de hand daarvan mijn eerste prototype gemaakt.
