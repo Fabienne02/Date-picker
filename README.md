@@ -1,139 +1,87 @@
-# Human Centered Design @cmda-minor-web 2021 - 2022
+#Human Centered Design
+Voor Human centred design kregen wij de opdracht te ontwerpen voor een toegewezen "human". Mijn human is Marijn, marijn heeft moeite met fijne moteriek.
+Het doel van dit vak is specafiek voor jouw human te ontwerpen, hem te leren kennen en een custom applicatie voor zijn wens te maken. 
+Voor Marijn ontwerp ik een website waarbij hij gemakkelijk zijn treinen kan inplannen. Deze website is ingesteld op zijn werk tijden, locaties, en data. 
+Hiervoor heb ik samen met Marijn 3 keer mijn website getest om erachter te komen ik de website zo passend mogelijk kan maken voor hem. 
 
-Human Centered Design is een  methode voor het ontwerpen van gebruiksvriendelijke interactieve toepassingen.
+## Table of contents  
+- [Human Centered Design](#human-centered-design)
+  * [Aannames](#aannames)
+  * [User scenario](#user-scenario)
+    + [Who?](#who)
+    + [What?](#what)
+    + [How?](#how)
+    + [Why?](#why)
+  * [Challenges](#challenges)
+  * [Concept](#concept)
+  * [Features](#features)
+  * [First test](#first-test-with-eric)
+    + [Preparations](#preparations)
+    + [Testing](#testing)
+    + [Insights](#insights)
+    + [Iterations](#iterations)
+  * [Second test](#second-test-with-eric)
+    + [Preparations](#preparations-1)
+    + [Testing](#testing-1)
+    + [Insights](#insights-1)
+    + [Iterations](#iterations-1)
+  * [Third test with Eric](#third-test-with-eric)
+    + [Preparations](#preparations-2)
+    + [The flow of all commands:](#the-flow-of-all-commands)
+    + [The select command:](#the-select-command)
+    + [The navigate command:](#the-navigate-command)
+    + [Testing](#testing-2)
+    + [Insights](#insights-2)
+    + [Iterations](#iterations-2)
+  * [Exclusive design principles](#exclusive-design-principles)
+    + [Study situation](#study-situation)
+    + [Prioritise identity](#prioritise-identity)
+    + [Ignore conventions](#ignore-conventions)
+    + [Add nonsense](#add-nonsense)
+  * [Final product](#final-product)
+  * [Conclusion](#conclusion)
+    + [Do's](#dos)
+    + [Dont's](#donts)
+  * [Tech stack](#tech-stack)
+  * [Live version](#live-version)
+  * [License](#license)
+  * [Install](#install)  
 
-> What distinguishes Human-Centered Design from other problem-solving approaches is its obsessive focus on understanding the perspective of the person who experiences a problem, their needs, and whether the solution that has been designed for them is truly meeting their needs effectively or not. At its most effective, the very people who experience a problem the most are a constant part of the design process and when possible, become part of the design team itself. - [What Is Human-Centered Design?](https://medium.com/dc-design/what-is-human-centered-design-6711c09e2779)
+## Aannames 
+Voordat ik Marijn had ontmoet heb ik eerst wat aannames gedaan en aan de hand daarvan mijn eerste prototype gemaakt.
+Mijn aannames waren als volgt: <br>
+- Maakt gebruik van de tab toets
+- heeft problemen met precies acties zoals 1 toets, kleine knoppen
+- Gebruikt speech
+- Gebruikt 9292 niet vanwege de complex dicht bij elkaar ontworpen knoppen
+- Hand bewegingen zoals te zien bij Parkinson
+<br>
+Deze aannames heb ik gemaakt aan de hand van de user-case die als volgt luid:<br>
+> Marijn is waarschijnlijk de beste developer die je ooit gaat ontmoeten. Een briljante nerd. Hij doet al jaren met heel veel plezier mee aan deze opdracht. Marijn heeft een motorische stoornis. Hij gebruikt zijn computer dus anders dan wij. Hij heeft veel moeite met fijne motoriek. Hij gebruikt zijn toetsenbord om te navigeren, en in de Accessibility settings van zijn Mac heeft hij Sticky Keys aan staan.
+<br>
+Aan de hand van deze user-case en aannames zag mijn eerste prototype er als volgt uit:
+![ontwerp week 1](https://github.com/Fabienne02/Date-picker/blob/main/assets/week%201.jpg)
 
-Door regelmatig te testen met je doelgroep kom je tot een beter en passend ontwerp. 
-Een Frontend Designer en Developer heeft verstand van interactie, vormgeving én techniek. 
-Als je web technieken beheerst kun je je ideeën snel prototypen en testen in een browser. Je kan dan aanpassingen doorvoeren, uitproberen en weer testen ...
-        
-In het vak Human Centered Design gaan we dingen ontwerpen voor echte mensen. 
-Is er goede interactie? Kan je 'mens' je product op een prettige manier bedienen? 
-Wat voor principes heb je gebruikt en getest? En is het leuk?
+## User Scenario
+Als user met moteriek problemen wil ik mijn trein reis gemakkelijk kunnen kiezen doormiddel van mijn toetsenbord en keypad
 
-## Opdracht
+### Who
+Dit project heb ik gemaakt voor Marijn Meijles. Marijn heeft moeite met fijne moteriek, en kan zichzelf niet zelfstandig in en uit de trein vervoeren door zijn rolstoel. Hiervoor heeft hij hulp nodig, gelukkig kan hij die hulp krijgen, alleen moet hij zijn treinen wel inplannen om deze hulp te ontvangen.
+Hierbij kan marijn minimaal 1 uur van te voren zijn trein inplannen. Om hem dit zo gemakkelijk mogelijk te maken wil ik hem helpen door een website te maken die op maat gemaakt is voor zijn tijden, locaties, data en gebruiksvoorkeuren.
 
-### Ontwerpen met en voor echte mensen
+### What 
+Marijn heeft aangegeven een reisplanner te willen die hem helpt zijn trein in te plannen. Hierbij luid zijn case als volgt:<br>
+>Ontwerp een date picker voor Marijn
+Hij reist veel met de trein, en hij moet van tevoren aangeven welke trein hij wil nemen zodat er iemand is om hem te helpen met zijn rolstoel. Date-pickers zijn over het algemeen priegelig, en niet ontworpen voor iemand die afhankelijk is van zijn toetsenbord?
 
-Voor dit vak krijg je een ontwerp-opdracht die je gaat maken voor 1 mens. 
-Een echt mens. 
-Je moet je ontwerp 3 keer testen. 
-Door te testen en te itereren ga je je ontwerp verbeteren. 
-Uiteindelijk heb je een ontwerp dat exclusief gemaakt is voor 1 persoon. 
-Een _exclusive design_ ... 
-Wie is deze persoon dan voor wie je dit gaat maken? 
-Wat vindt deze persoon leuk of juist niet? 
-En hoe bedient deze persoon een computer?
+### How 
+Ik ga zijn reisplanner vormgeven in een website. Hierbij wil ik zijn toetsenbord gebruik implementeren in mijn website maar ook knoppen erin verwerken van grotere scale om meerdere gebruiks manieren mogelijk te maken. Verder ga ik kijken naar zijn gedrag en dagelijkse planning om zo veel mogelijk snel kopppelingen te verwerken zodat data voor hem al ingevuld is en klaar staat.
 
-- [Opdracht - Ontwerpen met en voor echte mensen](course/opdracht-human-centered-design.md)
+### Why
+Bij eerste gedachten zou je denken dat een app makkelijker is om een reisplanner te maken, maar een app betekent ook een kleiner opvlak.
+Daarbij kwam ik er ook achter, Marijn gebruikt meestal zijn laptop! Hierdoor denk ik dat een website met app gedrag de beste oplossing is.
+Met app gedrag bedoel ik, grote knoppen, simpele layout, een centrale verzameling van data. Zo min mogelijk ruimte om frustratie te creeëren.
 
-### Leerdoelen
-
-- _Leren hoe je (design) principles in een ontwerp kan toepassen._
-- _User needs begrijpen en gebruiken in je ontwerp._
-- _Leren hoe je moet testen en de resultaten gebruiken voor het verbeteren van je ontwerp._
-
-[Rubric](#rubric)
-
-## Planning & programma
-
-| Planning  | Woensdag  |  Donderdag | Vrijdag  |
-|---|---|---|---|
-| [Week 1](#week-1---kickoff-en-aannames-testen)  | Intro, College exclusive design + Testen | College + Testen | Feedbackgesprekken |
-| [Week 2](#week-2---prototypen-en-testen)  | ~~Koningsdag~~  | College + Testen | Feedbackgesprekken  |
-| ~~Meivakantie~~ |   |  |   |
-| [Week 3](#week-3---prototypen-testen-en-reflecteren)  | College + Testen  |  College + Testen | Beoordelingsgesprekken  |
-
-
-## Week 1 - Kickoff en aannames testen 
-
-Deze week krijg je een college over _Exclusive Design Principles_. Deze Principles ga je toepassen in de opdracht. Op woensdag en donderdag gaan we kennis maken met de echte mensen voor wie we gaan ontwerpen. Je kan dan al een kleine interactieve demo maken om te testen.
-
-### Woensdag 20 april
-
-Woensdag is de eerste les van het vak Human Centered Design. Je krijgt een intro college over het vak en Vasilis gaat vertellen over _Exclusive Design_.
-
-Daarna prototypen en testen.
-
-### Donderdag 21 april
-
-Donderdag begint de les met het delen van bevindingen van de test van woensdag. Ook gaan we deze les het artikel [Exclusive Design van Vasilis van Gemert](https://exclusive-design.vasilis.nl/) bespreken.
-
-Daarna prototypen en testen.
-
-### Vrijdag 22 april
-
-Feedbackgesprekken in groepen.
-
-
-## Week 2 - Prototypen en testen 
-
-Deze week heb je het tweede gesprek met je mens. Wat ga je testen? Wat wil je weten? Woensdag is het koningsdag, dan is er geen les.
-
-### Donderdag 28 april
-
-Donderdag krijg je een college over testen. Voor deze les moet je het artikel [10 Usability Lessons van Steve Krug](https://www.uxbooth.com/articles/10-usability-lessons-from-steve-krugs-dont-make-me-think/) en [How User Scenarios Help To Improve Your UX van Sabina Idler](https://usabilla.com/blog/how-user-scenarios-help-to-improve-your-ux/) lezen.
-
-'s Middags ga je voor de tweede keer prototypen en testen.
-
-### Vrijdag 29 april
-
-Feedbackgesprekken in groepen.
-
-
-## Week 3 - Prototypen, testen en reflecteren
-
-In week 3 gaan we verder met testen, itereren en reflecteren. Deze week is de laatste sessie met je mens.
-
-### Woensdag 11 mei
-
-Woensdag beginnen we met een college. Voor deze les moet je dit artikel lezen: [Design for Both Needs and Wants: Applying Anderson’s User Experience Hierarchy of Needs](https://thevisualcommunicationguy.com/2018/11/08/design-for-both-needs-and-wants-applying-andersons-user-experience-hierarchy-of-needs/)
-
-Daarna prototypen en testen.
-
-### Donderdag 12 mei
-
-Donderdag gaan we bevindingen van de tests bespreken. 
-
-Daarna prototypen en testen.
-
-### Vrijdag 13 mei
-
-Op vrijdag zijn de beoordelingsgesprekken. Je hebt dan een gesprek waarin we je vorderingen en bevindingen bespreekt. We verwachten dat je op Github je tests en iteraties hebt beschreven. Belangrijk is dat je reflecteert op de leerdoelen van het vak. 
+## Concept 
 
 
-
-## Rubric
-
-De opdracht wordt beoordeeld aan de hand van onderstaande rubric. Je moet slagen voor het criterium (middenkolom) om het vak te halen. 
-
-| Ontoereikend  | Criteria  |  Verbetering |
-|---|---|---|
-|  | Readme - In de beschrijving van het project staat de opdracht uitgelegd, is het probleem duidelijk beschreven en hoe het probleem is opgelost. | | 
-|  | Design Principles - Student laat zien hoe de Exclusive Design Principles zijn toegepast in het ontwerp. De principes study situation, prioritise identity, ignore conventions en add nonsense zijn goed uitgelegd. Aan de hand van de principes wordt duidelijk gemaakt hoe deze hebben bijgedragen aan het verbeteren van het ontwerp. | | 
-|  | User Needs - Er is een user scenario geschreven dat aansluit bij de identiteit van de test persoon. Er is een duidelijk en volledig user scenario geschreven dat antwoord geeft op de 4 w-vragen: Who? What? How? en Why? | | 
-|  | Testen - Er is minimaal drie keer getest. Er is een verslaglegging van de tests gedaan waarin de test-opzet wordt behandeld en er is een duidelijke conclusie beschreven met do's en dont's over hoe je goed kan testen. | | 
-|  | Testresultaten - Aan de hand van de tests wordt duidelijk gemaakt hoe deze hebben bijgedragen aan het verbeteren van het ontwerp of hoe dit een volgende keer beter of anders kan. | | 
-
-
-
-
-
-<!-- Add a link to your live demo in Github Pages 🌐-->
-
-<!-- ☝️ replace this description with a description of your own work -->
-
-<!-- replace the code in the /docs folder with your own, so you can showcase your work with GitHub Pages 🌍 -->
-
-<!-- Add a nice poster image here at the end of the week, showing off your shiny frontend 📸 -->
-
-<!-- Maybe a table of contents here? 📚 -->
-
-<!-- How about a section that describes how to install this project? 🤓 -->
-
-<!-- ...but how does one use this project? What are its features 🤔 -->
-
-<!-- Maybe a checklist of done stuff and stuff still on your wishlist? ✅ -->
-
-<!-- How about a license here? 📜 (or is it a licence?) 🤷 -->
