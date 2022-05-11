@@ -104,7 +104,7 @@ Features die ik in mijn web applicatie heb verwerkt
 
 * Could haves:
   - [ ] Autocomplete op volgorde laatste gebruikt
-  - [ ] Nonesense
+  - [X] Nonesense
 
 * Would haves:
   - [ ] Autofill op basis van tijd en locatie
