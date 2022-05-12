@@ -94,7 +94,6 @@ Hiervoor heb ik samen met Marijn 3 keer mijn website getest om erachter te komen
 Features die ik in mijn web applicatie heb verwerkt
 
 * Must haves:
-  - [X] Gebruik van HJKL toetsen
   - [X] Grote knoppen
   - [X] Autocomplete
 
@@ -121,12 +120,11 @@ Voor mijn eerste ontwerp heb ik aan de hand van de user-case en mijn aannamen en
 - Hij stelde voor relatieve tijd tot 2  vooruit daarna absolute tijd
 
 ### Reflectie
-Het was tof om te zien hoe verkeerd mijn aannames waren. Dit bewijst hoe belangrijk testen is en dat je niet aannames van je user mag maken. Tijdens het testen kwam ik erachter dat de pijl knoppen veel te klein waren en hij totaal geen tab gebruikt. Wel zag ik dat hij door de "grotere" knoppen geneigt was zijn muispad te gebruiken en leek hier erg comfortable mee te zijn. Daardoor heb ik besloten beide de toetsen HJKL en de Mousepad in mijn web app te verwerken.
+Het was tof om te zien hoe verkeerd mijn aannames waren. Dit bewijst hoe belangrijk testen is en dat je niet aannames van je user mag maken. Tijdens het testen kwam ik erachter dat de pijl knoppen veel te klein waren en hij totaal geen tab gebruikt. Wel zag ik dat hij door de "grotere" knoppen geneigt was zijn muispad te gebruiken en leek hier erg comfortable mee te zijn.
 
 ### Plannen
 * Concept uitwerken
 * Snel knoppen naar huis en naar werk
-* Tab eruit halen wel HJKL
 * Tijd default op hem aanpassen
 
 ### Ontwerp test 1
