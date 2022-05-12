@@ -24,7 +24,7 @@ month.textContent = monthNames[m.getMonth()]
   weekdays[1] = "Maandag";
   weekdays[2] = "Dinsdag";
   weekdays[3] = "Woensdag";
-  weekdays[4] = "Donderdsg";
+  weekdays[4] = "Donderdag";
   weekdays[5] = "Vrijdag";
   weekdays[6] = "Zaterdag";
   var r = weekdays[a.getDay()];
@@ -170,17 +170,38 @@ fastRemoveArrow.onclick = function () {
   }
 }
 
-// Voor als je tijd op < now staat wanneer de date van daynow +1 naar -1 gaat 
-// onclick = setInterval(function resetDateNow () {
-//   if ( parseInt(box.textContent) === d.getDate() ) {
-//     console.log("hi")
+// niet alleen de tijd opnieuw define maar ook de waarde erin hours + minuten
+var now     = new Date(); 
+var hourReset    = now.getHours() +1;
+var minuteReset  = now.getMinutes();
 
-//     document.getElementById("digital-clock").innerHTML = currentTime;
-
-//     clearInterval(100);
-//   }
+function getDateTimeReset() { 
+  if(hourReset.toString().length == 1) {
+       futureHour = '0'+futureHour;
+  }
+  if(minuteReset.toString().length == 1) {
+       futureMinute = '0'+futureMinute;
   
-// },);
+  }    
+   return getDateTimeReset;
+}
+
+getDateTimeReset()
+
+var currentTimeNew = hourReset+':'+minuteReset; 
+
+// Voor als je tijd op < now staat wanneer de date van daynow +1 naar -1 gaat 
+onclick = setInterval(function resetDateNow () {
+  if ( parseInt(box.textContent) === d.getDate() ) {
+    console.log("hi")
+
+
+    document.getElementById("digital-clock").innerHTML = currentTimeNew;
+
+    clearInterval(0.1);
+  }
+  
+},);
 
 function limitAnimT() {
   if (boxT.classList.contains('shake-horizontal')) {
@@ -232,7 +253,7 @@ function autocomplete(inp, arr) {
       if (e.keyCode == 40) {
         currentFocus++;
         addActive(x);
-      } else if (e.keyCode == 38) { //up
+      } else if (e.keyCode == 38) { 
         currentFocus--;
         addActive(x);
       } else if (e.keyCode == 13) {
@@ -268,7 +289,23 @@ document.addEventListener("click", function (e) {
 });
 }
 
+// if clicked on vroom delay of href 
+const vroom = document.getElementById("vroom")
+const train = document.getElementById("train")
 
+
+// 5 SECONDEN TIME OUT HREF 
+document.getElementById('vroom').addEventListener('click', ()=>{
+  setTimeout(function() {
+    window.location.href= "https://www.ns.nl/reisplanner/#/"
+  }, 5000);
+})
+
+function ModifyEnterKeyPressAsTab() {
+  if (window.event && window.event.keyCode == 13) {
+      window.event.keyCode = 9;
+  }
+}
 
 
 
