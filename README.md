@@ -166,6 +166,7 @@ Met deze twee dingen in gedachten heb ik mijn web applicaite zo bug vrij mogelij
 Waarom button klein en subtiel maken als ze schreeuwen om gebruikt te worden? In mijn web applicatie zijn de button +size. Er valt niet meer mis te klikken en zo voorkom ik irritaties tijdens het gebruik.
 
 ### Add Nonsence
+Ik heb veel over Marijn leren kennen, hij houd van metal, dark mode en pizza. Maar toen dit werd getest door onderandere mijn leerlingen leek marijn het wel leuk te vinden alleen niet fijn over langere periode. Maar uit zijn opmerkingen haal ik dat hi van simpel houd, snel en niet te veel ongein. Hierbij heb ik als nonsence zijn meest gedragen kleur: Donker groen. En een klein NS treintje die heen en weer rijd om een kleine niet irritante animatie toe te voegen.
 
 ## Final Product
 
