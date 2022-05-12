@@ -27,13 +27,10 @@ Hiervoor heb ik samen met Marijn 3 keer mijn website getest om erachter te komen
     + [Plannen](#plannen-1)
     + [Ontwerp test 2](#ontwerp-test-2)
   * [Third test](#third-test)
-    + [Preparations](#preparations-2)
-    + [The flow of all commands:](#the-flow-of-all-commands)
-    + [The select command:](#the-select-command)
-    + [The navigate command:](#the-navigate-command)
-    + [Testing](#testing-2)
-    + [Insights](#insights-2)
-    + [Iterations](#iterations-2)
+    + [Bevindingen](#bevindingen-1)
+    + [Reflectie](#reflectie-1)
+    + [Iteratie mogelijkheden](#iteratie-mogelijkheden)
+    + [Ontwerp test 3](#ontwerp-test-3)
   * [Exclusive design principles](#exclusive-design-principles)
     + [Study situation](#study-situation)
     + [Prioritise identity](#prioritise-identity)
@@ -153,6 +150,14 @@ Verder werken de pijlen heel goed en ben ik blij mee, hij gaf wat kleine tips du
 ![](https://github.com/Fabienne02/Date-picker/blob/main/assets/week2.jpg)
 
 ## Third test
+
+### Bevindingen
+
+### Reflectie
+
+### Iteratie mogelijkheden
+
+### Ontwerp test 3
 
 ## Exclusive design principles
 ### Study situation
