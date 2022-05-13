@@ -185,8 +185,12 @@ Waarom button klein en subtiel maken als ze schreeuwen om gebruikt te worden? In
 Ik heb veel over Marijn leren kennen, hij houd van metal, dark mode en pizza. Maar toen dit werd getest door onderandere mijn leerlingen leek marijn het wel leuk te vinden alleen niet fijn over langere periode. Maar uit zijn opmerkingen haal ik dat hi van simpel houd, snel en niet te veel ongein. Hierbij heb ik als nonsence zijn meest gedragen kleur: Donker groen. En een klein NS treintje die heen en weer rijd om een kleine niet irritante animatie toe te voegen.
 
 ## Final Product
+Als eindproduct heb ik de laatste bevindingen van test 3 meegenomen. Hierbij heb ik zoveel bugs als ik kon uit de tijd gehaald, De kleur terug naar paars gehaald en de autocomplete grotere knoppen gegeven zodat marijn niet zo snel meer mis klikt. Hierbij is het duidelijk welke knoppen snelknoppen zijn en welke info er in moet worden gevuld. Zelf ben ik niet erg tevrede met het einderesultaat, ik ben erachter gekomen dat 3 weken erg kort is iemand te leren kennen en een custom made web app te maken die voor jouw user goed werkt. Als ik langer de tijd had was ik gaan werken met toetsenboord knoppen, had ik de autocomplete anders eengpakt om zoveel mogelijk typen te voorkomen en was ik me meer gaan verdiepen in wat zijn de oplossingen hiervoor al. 
+<br>
+![](https://github.com/Fabienne02/Date-picker/blob/main/assets/week4.jpg)
 
 ## Conclusion
+Zoals eerder benoemt ben ik erachter gekomen dat 3 weken veel te kort is om iets passend bij een user te maken. Maar de meest belangrijke conclusie die ik heb getrokken tijdens dit vak is dat er gebruikers zijn die sommigen websites totaal niet kunnen bereiken of gebruiken zoals marijn. Hiermee moet ook rekening gehouden worden als het gaat om usability. En dat vond ik tijdens dit vak nog best een uitdaging omdat je je moet inleven in zo persoon en dat is intens moeilijk als jij totaal ander gedrag gewent bent. Zoals eerder benoemt:  Als ik langer de tijd had was ik gaan werken met toetsenboord knoppen, had ik de autocomplete anders eengpakt om zoveel mogelijk typen te voorkomen en was ik me meer gaan verdiepen in wat zijn de oplossingen hiervoor al". Ik vond het enorm tof om met Marijn te werken en heb nu een beter beeld over mijn users en wat ik vooral heb geleerd is dat testen heel belangrijk is. ik heb zoveel iteraties gemaakt, gedacht dat het zuo werken en Marijn mijn ongelijk bewees.
 
 ## Live version
 [Live demo](https://fabienne02.github.io/Date-picker/) 🔮
