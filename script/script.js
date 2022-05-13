@@ -171,37 +171,37 @@ fastRemoveArrow.onclick = function () {
 }
 
 // niet alleen de tijd opnieuw define maar ook de waarde erin hours + minuten
-var now     = new Date(); 
-var hourReset    = now.getHours() +1;
-var minuteReset  = now.getMinutes();
+// var now     = new Date(); 
+// var hourReset    = now.getHours() +1;
+// var minuteReset  = now.getMinutes();
 
-function getDateTimeReset() { 
-  if(hourReset.toString().length == 1) {
-       futureHour = '0'+futureHour;
-  }
-  if(minuteReset.toString().length == 1) {
-       futureMinute = '0'+futureMinute;
+// function getDateTimeReset() { 
+//   if(hourReset.toString().length == 1) {
+//        futureHour = '0'+futureHour;
+//   }
+//   if(minuteReset.toString().length == 1) {
+//        futureMinute = '0'+futureMinute;
   
-  }    
-   return getDateTimeReset;
-}
+//   }    
+//    return getDateTimeReset;
+// }
 
-getDateTimeReset()
+// getDateTimeReset()
 
-var currentTimeNew = hourReset+':'+minuteReset; 
+// var currentTimeNew = hourReset+':'+minuteReset; 
 
-// Voor als je tijd op < now staat wanneer de date van daynow +1 naar -1 gaat 
-onclick = setInterval(function resetDateNow () {
-  if ( parseInt(box.textContent) === d.getDate() ) {
-    console.log("hi")
+// // Voor als je tijd op < now staat wanneer de date van daynow +1 naar -1 gaat 
+// onclick = setInterval(function resetDateNow () {
+//   if ( parseInt(box.textContent) === d.getDate() ) {
+//     console.log("hi")
 
 
-    document.getElementById("digital-clock").innerHTML = currentTimeNew;
+//     document.getElementById("digital-clock").innerHTML = currentTimeNew;
 
-    clearInterval(0.1);
-  }
+//     clearInterval(0.1);
+//   }
   
-},);
+// },);
 
 function limitAnimT() {
   if (boxT.classList.contains('shake-horizontal')) {

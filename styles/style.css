@@ -8,14 +8,14 @@ body {
   height: 100vh;
   display: flex;
   justify-content: flex-start;
-  overflow-y: hidden;
+  /* overflow-y: hidden; */
   overflow-x: hidden;
   /* align-items: center; */
 }
 
 :root {
-  --main-bg: #547d5d;
-  --main-fade: rgb(102, 168, 124);
+  --main-bg: #8157f4;
+  --main-fade: rgba(129,87,244,1);
 }
 
 h1 {
@@ -248,7 +248,7 @@ a:nth-of-type(1), a:nth-of-type(2) {
 
 .autocomplete-items {
   position: absolute;
-  font-size: 12px;
+  font-size: 20px;
   border: 1px solid #d4d4d4;
   border-bottom: none;
   border-top: none;
@@ -281,7 +281,7 @@ a:nth-of-type(1), a:nth-of-type(2) {
 
 #train {
   position: absolute;
-  margin-top: 0em;
+  margin-top: -1em;
   height: 3em;
   margin-left: -10em;
   -webkit-animation: linear infinite alternate;
@@ -301,6 +301,16 @@ a:nth-of-type(1), a:nth-of-type(2) {
   margin-left: 70em;
   /* , webkit-transform: scaleX(-1); */
 }
+}
+
+#snelknoppen {
+  display: block;
+  margin-left: 2em;
+  margin-bottom: -2em;
+}
+
+#snelknoppen h1 {
+  justify-content: flex-start;
 }
 
 
