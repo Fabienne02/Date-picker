@@ -211,5 +211,5 @@ De maker van deze Web Applicatie is: [*Fabienne van den Steen*](https://github.c
 - [Code hulp bron](https://developer.mozilla.org/en-US/)
 - [Stackoverflow](https://stackoverflow.com/)
 
-## Lisence
+## License
 [![license](https://img.shields.io/github/license/DAVFoundation/captain-n3m0.svg?style=flat-square)]()
