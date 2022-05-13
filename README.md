@@ -186,7 +186,7 @@ Ik heb veel over Marijn leren kennen, hij houd van metal, dark mode en pizza. Ma
 
 ## Final Product
 Als eindproduct heb ik de laatste bevindingen van test 3 meegenomen. Hierbij heb ik zoveel bugs als ik kon uit de tijd gehaald, De kleur terug naar paars gehaald en de autocomplete grotere knoppen gegeven zodat marijn niet zo snel meer mis klikt. Hierbij is het duidelijk welke knoppen snelknoppen zijn en welke info er in moet worden gevuld. Zelf ben ik niet erg tevrede met het einderesultaat, ik ben erachter gekomen dat 3 weken erg kort is iemand te leren kennen en een custom made web app te maken die voor jouw user goed werkt. Als ik langer de tijd had was ik gaan werken met toetsenboord knoppen, had ik de autocomplete anders eengpakt om zoveel mogelijk typen te voorkomen en was ik me meer gaan verdiepen in wat zijn de oplossingen hiervoor al. 
-<br>
+<br><br>
 <img src="https://github.com/Fabienne02/Date-picker/blob/main/assets/week4.jpg" >
 
 ## Conclusion
