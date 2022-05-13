@@ -100,6 +100,7 @@ Features die ik in mijn web applicatie heb verwerkt
 
 * Could haves:
   - [ ] Autocomplete op volgorde laatste gebruikt
+  - [ ] HJKL toetsen gebruik
   - [X] Nonesense
 
 * Would haves:
@@ -150,14 +151,24 @@ Verder werken de pijlen heel goed en ben ik blij mee, hij gaf wat kleine tips du
 ![](https://github.com/Fabienne02/Date-picker/blob/main/assets/week2.jpg)
 
 ## Third test
+Tijdens de derde test heb ik getest of marijn bugs kon vinden en hoe de autocompleet voor hem werkt. Hierbij heb ik geen uitleg gegeven en heb gewoon laten klikken terwijl ik zijn bewegingen, snelheid en klik-activiteit observeerde.
 
 ### Bevindingen
+* Autocomplete heeft een select bug
+* De snelknoppen zijn niet duidelijk genoeg over dat het snel knoppen zijn
+* Kleine bugs in de tijd
+* Hij gaat pas half 10 naar zijn werk ipv 7 uur
+* Zijn favorite kleur is paars ipv donker groen
 
 ### Reflectie
+Dat er bugs in de tijd zouden komen had ik verwacht, helaas waren het er iets meer dan ik op voorbereid was. Dat was jammer omdat ik de tijd wel verder had willen testen met hem. Ook had ik verwacht dat de autocomplete beter had uitgepakt, maar de knoppen daarin zijn de klein en de select mode is virj onduidelijk. Dit kan ik eventueel oplossen door ook deze knoppen groter te maken en pijl hints erbij te geven. Hierbij ga ik mijn bevindingen verwerken maar dit zou ook een goedo mslag punt zijn om deel van mijn concept compleet te veranderen, helaas is hier niet genoeg tijd voor.
 
 ### Iteratie mogelijkheden
+* Bugs eruit
+* Autocomplete aanpassen
 
 ### Ontwerp test 3
+![](https://github.com/Fabienne02/Date-picker/blob/main/assets/week3.jpg)
 
 ## Exclusive design principles
 ### Study situation
